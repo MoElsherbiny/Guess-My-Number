@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 2px;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+/* header */
+
+header {
+  position: relative;
+  text-align: center;
+}
+h1 {
+  border: 6px solid #eee;
+  padding: 10px;
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.between {
+  margin: 10px 5px 10px 5px;
+  font-size: 30px;
+}
+
+.btn-again {
+  padding: 10px;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.btn-again:hover {
+  background-color: #b1afaf;
+}
+.number {
+  position: absolute;
+  font-size: 50px;
+  justify-content: center;
+  color: #eee;
+  background-color: #aaa3a3;
+  width: 10%;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.guess {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  width: 50px;
+}
+.btn-check {
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn-check:hover {
+  background-color: #b1afaf;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 40px;
+}
+p {
+  font-size: 20px;
+}
+
