@@ -25,6 +25,8 @@ h1 {
   padding: 10px;
   width: 50%;
   margin: 20px auto;
+  box-shadow: 1px 1px 14px 5px;
+
   border-radius: 20px;
 }
 .between {
@@ -52,11 +54,29 @@ h1 {
   z-index: 1;
   left: 50%;
   transform: translate(-50%, 50%);
+  box-shadow: 1px 1px 14px 13px;
 }
+@media only screen and (max-width: 600px) {
+  .number {
+    position: absolute;
+    left: 40px;
+    padding: 10px;
+    bottom: -60px;
+  }
+}
+
 main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
 }
 .left {
   padding: 20px;
@@ -90,4 +110,3 @@ main {
 p {
   font-size: 20px;
 }
-
